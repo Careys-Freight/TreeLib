@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27004.2009
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeLibDemo", "TreeLibDemo\TreeLibDemo.csproj", "{45414A0F-D85D-435F-95E8-E7FD6BA2716F}"
 EndProject
@@ -19,10 +19,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeLibDemoLib", "TreeLibDemoLib\TreeLibDemoLib.csproj", "{A2328C9B-04EC-4B79-A6F3-5A0B3FD7D3AC}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		Shared\Shared.projitems*{882e7e61-8000-4396-9067-0a5b25258bd4}*SharedItemsImports = 4
-		Shared\Shared.projitems*{a23bd0cf-4f74-42ba-b89a-141c0d75d3a1}*SharedItemsImports = 13
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -63,5 +59,10 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15B61454-7140-4B65-B517-5C3C0E97B683}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shared\Shared.projitems*{7768b30a-fd1c-4994-97dd-c06f959fbe21}*SharedItemsImports = 5
+		Shared\Shared.projitems*{882e7e61-8000-4396-9067-0a5b25258bd4}*SharedItemsImports = 4
+		Shared\Shared.projitems*{a23bd0cf-4f74-42ba-b89a-141c0d75d3a1}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal
